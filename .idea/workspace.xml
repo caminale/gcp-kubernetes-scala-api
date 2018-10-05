@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dfd5fe1-bd09-477a-9a66-dbcc1ed45879" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/.helmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/Chart.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/charts/gitlab-runner/.helmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/charts/gitlab-runner/Chart.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/charts/gitlab-runner/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/charts/gitlab-runner/templates/NOTES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/charts/gitlab-runner/templates/_helpers.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/charts/gitlab-runner/templates/configmap.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/charts/gitlab-runner/templates/deployment.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/charts/gitlab-runner/templates/secrets.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/charts/gitlab-runner/values.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/requirements.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/requirements.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/NOTES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/_helpers.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/fast-storage/storage.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/gitlab-config.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/gitlab/gitlab-config-storage.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/gitlab/gitlab-deployment.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/gitlab/gitlab-storage.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/gitlab/gitlab-svc.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/gitlab/postgresql-configmap.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/gitlab/postgresql-deployment.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/gitlab/postgresql-storage.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/gitlab/postgresql-svc.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/gitlab/redis-deployment.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/gitlab/redis-storage.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/gitlab/redis-svc.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/ingress/gitlab-ingress.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/ingress/gitlab-pages-ingress.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/load-balancer/nginx/00-namespace.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/load-balancer/nginx/configmap.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/load-balancer/nginx/daemonset.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/load-balancer/nginx/default-deployment.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/load-balancer/nginx/default-service.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/load-balancer/nginx/service.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/templates/load-balancer/nginx/tcp-configmap.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/values.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/env-namespaces/raddit-namespaces.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/kube-lego/00-namespace.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/kube-lego/configmap.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/kube-lego/deployment.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/k8s-cluster/k8s-config/storage-classes/ssd.yaml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -102,6 +57,7 @@
       <list>
         <option value="$PROJECT_DIR$/k8s-cluster/terraform.tfstate" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -182,15 +138,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538749259417</updated>
-      <workItem from="1538749260651" duration="622000" />
+      <workItem from="1538749260651" duration="771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="622000" />
+    <option name="totallyTimeSpent" value="771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -199,7 +156,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32902583" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32902583" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -230,14 +187,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/k8s-cluster/k8s-config/charts/gitlab-omnibus/charts/gitlab-runner/templates/configmap.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -262,6 +211,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
