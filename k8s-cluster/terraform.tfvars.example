@@ -1,0 +1,13 @@
+project_name = "project-id"
+project_id = "project-id"
+account_file_path = "path/to/your/gcp/key/json"
+
+region = "europe-west1"
+name = "k8s-cluster"
+description = "Test cluster to showcase CI/CD with k8s, Gitlab CI, and Helm"
+zone = "europe-west1-b"
+initial_node_count = 2 # number of nodes in the cluster
+
+ntw_name = "k8s-cluster-network" # VPC network name which will be created
+
+dns_domain = "k8s.caminamle.ovh"
