@@ -10,7 +10,7 @@
 * [CI/CD example with Gitlab CI and Helm](#cicd-example-with-gitlab-ci-and-helm)
 
 ## About the repo
-This repository contains an example of deploying and managing [Kubernetes](https://kubernetes.io/) clusters to [Google Cloud Platform](https://cloud.google.com/) (GCP) in a reliable and repeatable way.
+This repository contains [benchmark-ecommerce-scala](https://github.com/caminale/benchmark-ecommerce-scala) application  deployment and managing on [Kubernetes](https://kubernetes.io/) clusters to [Google Cloud Platform](https://cloud.google.com/) (GCP) in a reliable and repeatable way.
 
 [Terraform](https://www.terraform.io/) is used to describe the desired state of the infrastructure, thus implementing Infrastructure as Code (IaaC) approach.
 
@@ -78,6 +78,11 @@ Important files here:
 * `terraform.tfvars.example` contains example terraform input variables which you need to define before you can start creating a cluster.
 * `outputs.tf` contains output variables
 * `variables.tf` contains input variables
+
+### terraform-templates
+The folder contains the  Kubernetes Deployment object, service to expose the app to the public and configs
+* `scala-api.yml` is the place were we define the deployment and service (load balancer).
+* `scala-api-secret.yml` is used to insert the json secret gcp key into pods to have access to gcp authentification to connect pod to Spanner
 
 ### accounts
 This is another top level folder in this project. It has a separate set of terraform files which are used to manage access accounts to our clusters. For example, you may want to create a service account for your CI tool to allow it to deploy applications to the cluster.
