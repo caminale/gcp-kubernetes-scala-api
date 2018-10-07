@@ -21,7 +21,7 @@ it became the safest and cheapest way to run a Kubernetes cluster on GCP, becaus
 ## Quick start
 **Prerequisite:** make sure you're authenticated to GCP via [gcloud](https://cloud.google.com/sdk/gcloud/) command line tool using either _default application credentials_ or _service account_ with proper access.
 
-Check **terraform.tfvars.example** file inside `k8s-cluster` folder to see what variables you need to define before you can use terraform to create a cluster.
+Check **terraform.tfvars.example** file inside `k8s-cluster` folder to see what variables you need to define before you can use terraform to create a cluster. And see this to know how to get this variables : [here](https://github.com/caminale/benchmark-ecommerce-scala/blob/master/docs/gcp-configs.md)
 
 You can run the following command in `k8s-cluster` to make your variables definitions available to terraform:
 ```bash
